@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "🔥 OBALA French Translator is Live!"
+    return "🔥 OBALA T5 French Translator is Live!"
 
 @app.route("/translate", methods=["POST"])
 def translate():
